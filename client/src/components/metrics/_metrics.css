@@ -1,0 +1,11 @@
+.metrics__title {
+  color: #F23005;
+  font-size: 36px;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
+}
+
+.metrics__graph-title {
+  font-size: 24px;
+  text-align: center;
+}

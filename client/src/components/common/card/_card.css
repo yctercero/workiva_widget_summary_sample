@@ -1,0 +1,40 @@
+.card__container {
+  display: grid;
+  grid-template-columns: 8% 80% 8%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.05);
+  margin: 0px 10px 50px;
+  background: white;
+}
+
+.card__title {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.card__label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.card__detail, .card__description {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.card__icon {
+  justify-self: center;
+  font-size: 32px;
+}
+
+.card__arrow {
+  justify-self: end;
+}
+
+.card__content {
+  padding: 10px;
+}

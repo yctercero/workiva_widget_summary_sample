@@ -1,0 +1,28 @@
+{
+  "name": "workivia_takehome_server",
+  "version": "1.0.0",
+  "description": "Super basic node/express server for takehome.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yctercero/workiva_widget_summary_sample.git"
+  },
+  "keywords": [
+    "workiva",
+    "takehome"
+  ],
+  "author": "Yara Tercero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yctercero/workiva_widget_summary_sample/issues"
+  },
+  "homepage": "https://github.com/yctercero/workiva_widget_summary_sample#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,72 @@
+.app__container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: 
+    "header header header header header header"
+    "aside main main main main main";
+}
+
+.header__container {
+  grid-area: header;
+  background: white; 
+  -webkit-box-shadow: 0 0px 3px rgba(145, 148, 152, 0.3);
+  -moz-box-shadow: 0 0px 3px rgba(145, 148, 152, 0.3);
+  box-shadow: 0 0px 3px rgba(145, 148, 152, 0.3);
+  padding: 10px 15px;
+  background: #03A688;
+}
+
+.header__title {
+  color: #FFFAF2;
+  font-size: 16px;
+}
+
+.aside__container {
+  grid-area: aside;
+  height: 100vh;
+  -webkit-box-shadow: 6px 0 7px -8px rgba(145, 148, 152, 0.3);
+  -moz-box-shadow: 6px 0 7px -8px rgba(145, 148, 152, 0.3);
+  box-shadow: 6px 0 7px -8px rgba(145, 148, 152, 0.3);
+  padding: 0 15px;
+}
+
+.aside__menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aside__listitem {
+  padding: 10px 0;
+}
+
+.aside__listitem.active .aside__item {
+  color: #03A688;
+  font-weight: bold;
+}
+
+.aside__listitem:hover {
+  background: #e9e9e9;
+}
+
+.aside__item {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4c4a4a;
+  padding: 0 5px;
+}
+
+.aside__icon {
+  padding-right: 5px;
+}
+
+.main__container {
+  grid-area: main;
+  background: #f9f9f9
+}
+
+.main__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+}
