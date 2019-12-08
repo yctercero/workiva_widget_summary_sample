@@ -2,7 +2,7 @@
 
 ## Running the code
 
-After downloading code, while in `/workiva_widget_summary_sample` run `npm run start` to get the local server running on localhost:5000. Note: this assumes you have node on your local already. Once the local server is running, go to `/workiva_widget_summary_sample/client` and run `npm run start` - this should load necessary modules, start up the client, and open it in your browser once ready.
+After downloading code, while in `/workiva_widget_summary_sample` run `npm run start` to get the local server running on localhost:5000. Note: this assumes you have node and express on your local already. Once the local server is running, go to `/workiva_widget_summary_sample/client` and run `npm run start` - this should load necessary modules, start up the client, and open it in your browser once ready.
 
 ### File Structure
 
@@ -23,5 +23,5 @@ I used `create-react-up` to start up the app in order to focus more on the code 
 |       +-- configure-store.js // file pulls in sagas, reducers, etc.
 |   +-- _styles // all global styles
 |   +-- _utils
-|       +-- routes.js // constants for routes based on env being sandbox or production
+|       +-- routes.js // constants for routes
 ```
